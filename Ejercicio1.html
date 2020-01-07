@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 
-<body class="bg-secondary">
+<body class="bg-grey">
     <div class="container">
 
         <div class="row">
@@ -48,17 +48,35 @@
                     velit eget, vestibulum erat. Mauris rutrum consequat tincidunt. Nam condimentum sapien nec accumsan
                     egestas.</p>
             </div>
-            <div class="col-lg-4 col-md-12 text-light pt-3" style="background-color:#248399">
+
+
+            <!-- texto "4 columnas" -->
+            <div class="d-none d-lg-block col-4 text-light pt-3" style="background-color:#248399">
                 <h2>Aside</h2>
                 <p>4 columnas</p>
-
             </div>
+
+            <!-- texto "12 columnas" -->
+            <div class=" d-lg-none col-12 text-light pt-3" style="background-color:#248399">
+                <h2>Aside</h2>
+                <p>12 columnas</p>
+            </div>
+
             <div class="col-12 text-light pt-3" style="background-color: #783633">
                 <h2>Footer</h2>
                 <p>12 columnas</p>
             </div>
         </div>
         <div class="row"></div>
+        <nav aria-label="...">
+            <ul class="pagination pagination-lg justify-content-center mt-4 pg-blue">
+                <li class="page-item active">
+                    <a class="page-link" href="./Ejercicio1.html">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="./Ejercicio2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="./Ejercicio3.html">3</a></li>
+            </ul>
+        </nav>
 
     </div>
 
